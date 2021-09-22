@@ -21,12 +21,12 @@ function addTodo(event) {
     //CHECK MARK BUTTON
     const completedButton = document.createElement('button');
     completedButton.innerHTML = '<li class="fas fa-check"></i>';
-    completedButton.classList.add('complete-button');
+    completedButton.classList.add('complete-btn');
     todoDIV.appendChild(completedButton);
     //CHECK trash BUTTON
     const trashButton = document.createElement('button');
     trashButton.innerHTML = '<li class="fas fa-trash"></i>';
-    trashButton.classList.add('trash-button');
+    trashButton.classList.add('trash-btn');
     todoDIV.appendChild(trashButton);
     //APPEND TO LIST
     todoList.appendChild(todoDIV);
